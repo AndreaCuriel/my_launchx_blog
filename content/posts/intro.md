@@ -8,17 +8,17 @@ Hola!!
 
 La cultura varia en cada individuo dependiendo el lugar donde nace, el entorno social, la educación familiar e institucional. Por dicha razón en la formación de un profesional de software es ideal tener una cultura compartida para lograr las metas.
 
-Considero importante las siguientes caracteristicas:
+Considero importante las siguientes características:
 
 - Respeto al equipo de trabajo y a los clientes.
 - Comunicación efectiva y observador.
 - Brindar confianza.
 - Buen negociador.
-- Empatico y Paciente.
+- Empático y Paciente.
 - Persistente.
 - Gusto por aprender.
 - Ordenado.
-- Gusto por la lectura y la busqueda de la información.
+- Gusto por la lectura y la búsqueda de la información.
 - Buen manejo de la frustración.
 
 
