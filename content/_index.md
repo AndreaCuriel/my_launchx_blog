@@ -11,7 +11,7 @@ Mis expectativas para este proyecto son:
 
 - Conocer varias herramientas para desarrollo, como Git y GitHub.
 - Poner en practica mis nuevos conocimientos de Frontend.
-- Conocer los fundamentos y diseñar Backend.
+- Aprender los fundamentos y el diseño Backend.
 - Identificar buenas practicas de seguridad en el desarrollo backend.
 - Compartir mis conocimientos.
 
