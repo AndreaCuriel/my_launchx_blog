@@ -6,7 +6,19 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Feb 2022 18:16:21 -0600</lastBuildDate><atom:link href="https://andreacuriel.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 01 Mar 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://andreacuriel.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Título de tu blog post</title>
+      <link>https://andreacuriel.github.io/my_launchx_blog/posts/post_1/</link>
+      <pubDate>Tue, 01 Mar 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreacuriel.github.io/my_launchx_blog/posts/post_1/</guid>
+      <description>Hola!!
+Launch-X llego como un milagro para mí, acababa de decidir retomar mi profesión después de casi 3 años en pausa, como profesionista en TI. Únicamente que me sentía oxidada y desactualizada en el desarrollo de software.
+Un día en busca de cursos para Frontend me encontré con este gran proyecto de Innovación Virtual, el cual no tarde en registrarme con el deseo de ser aceptada.
+Mi gran sorpresa al iniciar esta travesía fue ver como los MCs (Mission Commanders) nos guiaban a todos mediante sus sesiones en vivo y todas las herramientas desarrolladas por ellos para encaminarnos al desarrollo Full-Stack, siendo más de 1000 explorers!</description>
+    </item>
+    
     <item>
       <title>La cultura de un desarrollador de software</title>
       <link>https://andreacuriel.github.io/my_launchx_blog/posts/intro/</link>
