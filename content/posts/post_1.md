@@ -13,7 +13,7 @@ Mi gran sorpresa al iniciar esta travesía fue ver como los MCs (Mission Command
 
 Al principio pensé que esto podría ser un gran desastre, ya que hay una gran diversidad de explorers, unos con conocimientos nulos, básicos o intermedios. Lo cual, me preguntaba ¿Cuál será la estrategia de los MCs para no perder el interés de los explorers? Mi respuesta fue contestada conforme los días pasaban. La metodología empleada fue, motiva y permite que cada uno aprenda a su ritmo, con un enfoque laboral. Te doy las bases de cada tema y tú continua tu aprendizaje investigando, despertando la curiosidad y sentirse siempre seguros de poder expresar nuestras incertidumbres.
 
-Lo que más me ha gustado de este proceso, es poder poner el practica los nuevos conocimientos como se haría en un ambiente laboral. Conocer las herramientas básicas como Git y GitHub para gestionar las versiones de los desarrollos. y ver en poco tiempo lo que he podido lograr con la guía y mi persistencia.
+Lo que más me ha gustado de este proceso, es poder poner el practica los nuevos conocimientos como se haría en un ambiente laboral. Conocer las herramientas básicas como Git y GitHub para gestionar las versiones de los desarrollos y ver en poco tiempo lo que he podido lograr con la guía y mi persistencia.
 
 
 
