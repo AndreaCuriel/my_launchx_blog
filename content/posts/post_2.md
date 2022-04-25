@@ -51,7 +51,7 @@ A continuación, les dejo el acordeón, esperando que les sea de utilidad.
 |git log --pretty=oneline|Ver los commits|
 |git checkout no.commit|Regresar a un commit especifico (ir al pasado)|
 |git checkout master|Regresar al último commit realizado (presente)|
-|git log --grep="palabras-a-buscar-en-log"|Búsqueda especifica por palabra en el log|
+|git log --grep="palabras-a-buscar-en-log" |Búsqueda especifica por palabra en el log|
 |git log -p|Ver commits y contenidos de cada uno|
 |git show hash-del-commit|Ver el contenido de un commit en específico, agregando el hash|
 |git blame archvio|Muestra los commits que se realizaron en un archivo en especifico|
@@ -60,7 +60,7 @@ A continuación, les dejo el acordeón, esperando que les sea de utilidad.
 
 |Comando|Descripción|
 |:--------------|:----------------|
-|git remote add origin url-del-repositotio-remoto|Copiar la url o https del repositorio remoto en el proyecto local, dándolo de alta|
+|git remote add origin url-del-repositotio-remoto |Copiar la url o https del repositorio remoto en el proyecto local, dándolo de alta|
 |git remote - v|Comprueba la url donde se encuentra el repositorio remoto|
 |git push origin main|Enviar los cambios del repositorio local al remoto por medio de la branch|
 |git pull origin master|Enviar los cambios del repositorio remoto al local por medio de la branch|
@@ -71,7 +71,7 @@ A continuación, les dejo el acordeón, esperando que les sea de utilidad.
   
 |Comando|Descripción|
 |:--------------|:----------------|
-|git submodule add url-del-repositorio-remoto nombre-de-la-carpeta-en-que-se-descargará|Un repositorio de git puede tener referencias a otros repositorios, esto es común cuando se necesita enlazar a varios proyectos en uno solo|
+|git submodule add url-del-repositorio-remoto nombre-de-la-carpeta-en-que-se-descargará |Un repositorio de git puede tener referencias a otros repositorios, esto es común cuando se necesita enlazar a varios proyectos en uno solo|
  
 
 ## Branches
@@ -82,14 +82,16 @@ A continuación, les dejo el acordeón, esperando que les sea de utilidad.
 |git branch|Listar las branches que se tienen en local|
 |git branch -a|Listar todos los branchas incluyendo los remotos|
 |git branch nombre-de-branch|Crear un branch nuevo|
-|git branch -D nombre-de-branch|Borrar un branch|
-|git checkout nombre-de-branch|Posicionarse en un branch existente|
-|git checkuot -b nombre-del-branch-nuevo>|Crear y posicionarse en un nuevo branch|
+|git branch -D nombre-de-branch |Borrar un branch|
+|git checkout nombre-de-branch |Posicionarse en un branch existente|
+|git checkuot -b nombre-del-branch-nuevo |Crear y posicionarse en un nuevo branch|
 |git merge branch-a-mezclar|Unir los cambios del branch donde te encuentras hacia la especificada en el comando|
   
-Referencia
+### Referencia
+  
 |Autor|URL|
 |:-----|:------|
 |Carlo Gilmar|[Taller de Git](https://carlogilmar.gitbooks.io/git-course/content/)|
+
   
-Saludos y agredecimientos a Carlo Gilmar por su aportación y ser un excelente mentor.
+#### Saludos y agredecimientos a Carlo Gilmar por su aportación y ser un excelente mentor.
