@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Acordeón de Git - Bitácora de Viaje de Andy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://andreacuriel.github.io/my_launchx_blog/favicon.png">
+
+  
+  
+  <link rel="stylesheet" href="../../css/style.min.4f4767d518839223786999cdb69fc7a63791220ecccd236bc732a5f998aaee2d.css">
+  
+
+  
+    <meta name="description" content="Resumen de los comandos básicos de Git"/>
+    <meta property="og:title" content="Acordeón de Git"/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url" content="https://andreacuriel.github.io/my_launchx_blog/posts/post_2/"/>
+    
+    <meta property="og:description" content="Resumen de los comandos básicos de Git"/>
+    <meta name="twitter:card" content="summary"/>
+    <meta name="twitter:site" content="@andyvero17"/>
+    <meta name="twitter:creator" content="@andyvero17"/>
+  
+
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet"> 
+</head>
+
+
+
+
+<body class='page frame page-blog-single'>
+  <div id="wrapper" class="wrapper">
+    <div class='header'>
+  <a class="header-logo" href="https://andreacuriel.github.io/my_launchx_blog/">Bitácora de Viaje de Andy</a>
+  <div class="menu-main">
+    <ul>
+        
+        
+            <li class="menu-item-aboutme">
+                <a href="../../pages/about/">AboutMe</a>
+            </li>
+        
+            <li class="menu-item-posts">
+                <a href="../../posts/">Posts</a>
+            </li>
+        
+    </ul>
+  </div>
+</div>
+    
+  <div class="blog">
+    
+    <div class="intro">
+      <h1>Acordeón de Git<span class="dot">.</span></h1>
+      
+    </div>
+    <div class="content">
+      <p>En mi misión en launchX – Backend con mi Mission Commander Carlo Gilmar, tuve el placer de tomar un taller de Git, donde mi MC nos brindó como referencia y además es el autor.</p>
+<p>Este taller me permitió realizar un acordeón de los comandos de Git, con el fin de tener una herramienta sencilla que pueda usar en mi día a día.</p>
+<p>A continuación, les dejo el acordeón, esperando que les sea de utilidad.</p>
+<h2 id="áreas-de-git">Áreas de Git</h2>
+<ul>
+<li>Working Directory</li>
+<li>Stage Area</li>
+<li>Local Repository</li>
+</ul>
+<h2 id="comandos-básicos-de-git">Comandos básicos de Git</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">mkdir my_proyect</td>
+<td style="text-align:left">Crear directorio</td>
+</tr>
+<tr>
+<td style="text-align:left">git init</td>
+<td style="text-align:left">Inicializador de repositorio básico, crea la carpeta. git</td>
+</tr>
+<tr>
+<td style="text-align:left">git status</td>
+<td style="text-align:left">Muestra el estado del working directory</td>
+</tr>
+<tr>
+<td style="text-align:left">git add archivo archivo</td>
+<td style="text-align:left">Agregar el archivo en Stage Area</td>
+</tr>
+<tr>
+<td style="text-align:left">git add .</td>
+<td style="text-align:left">Agrega todos los archivos faltantes que están en working Area a Stage Area</td>
+</tr>
+<tr>
+<td style="text-align:left">git rm &ndash;cached archivo</td>
+<td style="text-align:left">Elimina el archivo en el stage Area</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkout &ndash;archivo_en_stage</td>
+<td style="text-align:left">Regresa un archivo del stage al working directory</td>
+</tr>
+<tr>
+<td style="text-align:left">git commit -m &ldquo;Descripcion&rdquo;</td>
+<td style="text-align:left">Agrega los archivos de stage area al local Repository</td>
+</tr>
+<tr>
+<td style="text-align:left">git log</td>
+<td style="text-align:left">Muestra el estado del Local Repository</td>
+</tr>
+</tbody>
+</table>
+<h2 id="comandos-prácticos">Comandos Prácticos</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git diff archivo</td>
+<td style="text-align:left">Muestra las diferencias entre el estado de un archivo que ha sido modificado</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkuot &ndash; archivo_modificado</td>
+<td style="text-align:left">Elimina los cambios del archivo modificado en el working directory</td>
+</tr>
+<tr>
+<td style="text-align:left">git stash</td>
+<td style="text-align:left">Guarda en una pila los cambios encontrados en working directory, al correr déspues git status, te dirá que no hay modificación</td>
+</tr>
+<tr>
+<td style="text-align:left">git stash pop</td>
+<td style="text-align:left">Regresa los archivos guardados temporalmente en la pila hacia working directory</td>
+</tr>
+<tr>
+<td style="text-align:left">git reset</td>
+<td style="text-align:left">Te permite deshacer commits previamente hechos</td>
+</tr>
+<tr>
+<td style="text-align:left">git reset HEAD~1</td>
+<td style="text-align:left">Se refiere a eliminar el ultimo commint realizado HEAD~n n=número de commits</td>
+</tr>
+<tr>
+<td style="text-align:left">git reset &ndash;hard HEAD~1</td>
+<td style="text-align:left">Se descartan todos los cambios</td>
+</tr>
+<tr>
+<td style="text-align:left">git commit &ndash;amend -m &ldquo;reescribir&rdquo;</td>
+<td style="text-align:left">Reescribe el nombre del último commit realizado</td>
+</tr>
+<tr>
+<td style="text-align:left">git restore &ndash;staged files</td>
+<td style="text-align:left">Regresa los cambios del comando git add</td>
+</tr>
+</tbody>
+</table>
+<h2 id="manipulación-de-un-repositorio">Manipulación de un repositorio</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git log &ndash;pretty=oneline</td>
+<td style="text-align:left">Ver los commits</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkout no.commit</td>
+<td style="text-align:left">Regresar a un commit especifico (ir al pasado)</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkout master</td>
+<td style="text-align:left">Regresar al último commit realizado (presente)</td>
+</tr>
+<tr>
+<td style="text-align:left">git log &ndash;grep=&ldquo;palabras-a-buscar-en-log&rdquo;</td>
+<td style="text-align:left">Búsqueda especifica por palabra en el log</td>
+</tr>
+<tr>
+<td style="text-align:left">git log -p</td>
+<td style="text-align:left">Ver commits y contenidos de cada uno</td>
+</tr>
+<tr>
+<td style="text-align:left">git show hash-del-commit</td>
+<td style="text-align:left">Ver el contenido de un commit en específico, agregando el hash</td>
+</tr>
+<tr>
+<td style="text-align:left">git blame archvio</td>
+<td style="text-align:left">Muestra los commits que se realizaron en un archivo en especifico</td>
+</tr>
+</tbody>
+</table>
+<h2 id="repositorio-remoto-a-repositorio-local-y--viceversa">Repositorio remoto a repositorio local y  viceversa</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git remote add origin url-del-repositotio-remoto</td>
+<td style="text-align:left">Copiar la url o https del repositorio remoto en el proyecto local, dándolo de alta</td>
+</tr>
+<tr>
+<td style="text-align:left">git remote - v</td>
+<td style="text-align:left">Comprueba la url donde se encuentra el repositorio remoto</td>
+</tr>
+<tr>
+<td style="text-align:left">git push origin main</td>
+<td style="text-align:left">Enviar los cambios del repositorio local al remoto por medio de la branch</td>
+</tr>
+<tr>
+<td style="text-align:left">git pull origin master</td>
+<td style="text-align:left">Enviar los cambios del repositorio remoto al local por medio de la branch</td>
+</tr>
+<tr>
+<td style="text-align:left">git fetch</td>
+<td style="text-align:left">Actualiza el repositorio local con la información del repositorio remoto (tags y branchs)</td>
+</tr>
+<tr>
+<td style="text-align:left">git clone <!-- raw HTML omitted --></td>
+<td style="text-align:left">Sincronizar el repositorio remoto al repositorio local, para empezar, operarlo desde local</td>
+</tr>
+</tbody>
+</table>
+<h2 id="submodulos">Submodulos</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git submodule add url-del-repositorio-remoto nombre-de-la-carpeta-en-que-se-descargará</td>
+<td style="text-align:left">Un repositorio de git puede tener referencias a otros repositorios, esto es común cuando se necesita enlazar a varios proyectos en uno solo</td>
+</tr>
+</tbody>
+</table>
+<h2 id="branches">Branches</h2>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Comando</th>
+<th style="text-align:left">Descripción</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">git rev-parse &ndash;abbrev-ref HEAD</td>
+<td style="text-align:left">Saber en cual branch estas</td>
+</tr>
+<tr>
+<td style="text-align:left">git branch</td>
+<td style="text-align:left">Listar las branches que se tienen en local</td>
+</tr>
+<tr>
+<td style="text-align:left">git branch -a</td>
+<td style="text-align:left">Listar todos los branchas incluyendo los remotos</td>
+</tr>
+<tr>
+<td style="text-align:left">git branch nombre-de-branch</td>
+<td style="text-align:left">Crear un branch nuevo</td>
+</tr>
+<tr>
+<td style="text-align:left">git branch -D nombre-de-branch</td>
+<td style="text-align:left">Borrar un branch</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkout nombre-de-branch</td>
+<td style="text-align:left">Posicionarse en un branch existente</td>
+</tr>
+<tr>
+<td style="text-align:left">git checkuot -b nombre-del-branch-nuevo&gt;</td>
+<td style="text-align:left">Crear y posicionarse en un nuevo branch</td>
+</tr>
+<tr>
+<td style="text-align:left">git merge branch-a-mezclar</td>
+<td style="text-align:left">Unir los cambios del branch donde te encuentras hacia la especificada en el comando</td>
+</tr>
+</tbody>
+</table>
+<p>Referencia</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">Autor</th>
+<th style="text-align:left">URL</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">Carlo Gilmar</td>
+<td style="text-align:left"><a href="https://carlogilmar.gitbooks.io/git-course/content/">Taller de Git</a></td>
+</tr>
+</tbody>
+</table>
+<p>Saludos y agredecimientos a Carlo Gilmar por su aportación y ser un excelente mentor.</p>
+
+    </div>
+  </div>
+
+    <div class="footer">
+  
+  <div class="footer-social">
+    
+      <span class="social-icon social-icon-twitter">
+        <a href="https://twitter.com/andyvero17" title="twitter" target="_blank" rel="noopener">
+          <img src="../../images/social/twitter.svg" width="24" height="24" alt="twitter"/>
+        </a>
+      </span>
+    
+      <span class="social-icon social-icon-github">
+        <a href="https://github.com/AndreaCuriel" title="github" target="_blank" rel="noopener">
+          <img src="../../images/social/github.svg" width="24" height="24" alt="github"/>
+        </a>
+      </span>
+    
+  </div>
+  
+</div>
+  </div>
+
+  
+
+  
+
+  
+  <script type="text/javascript" src="../../js/bundle.min.e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.js"></script>
+  
+
+  
+  
+
+  
+  
+  
+    
+  
+
+
+</body>
+</html>

@@ -6,7 +6,18 @@
     <description>Recent content in Launch X Bitácora de viaje on Bitácora de Viaje de Andy</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 05 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://andreacuriel.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 25 Apr 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://andreacuriel.github.io/my_launchx_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Acordeón de Git</title>
+      <link>https://andreacuriel.github.io/my_launchx_blog/posts/post_2/</link>
+      <pubDate>Mon, 25 Apr 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://andreacuriel.github.io/my_launchx_blog/posts/post_2/</guid>
+      <description>En mi misión en launchX – Backend con mi Mission Commander Carlo Gilmar, tuve el placer de tomar un taller de Git, donde mi MC nos brindó como referencia y además es el autor.
+Este taller me permitió realizar un acordeón de los comandos de Git, con el fin de tener una herramienta sencilla que pueda usar en mi día a día.
+A continuación, les dejo el acordeón, esperando que les sea de utilidad.</description>
+    </item>
+    
     <item>
       <title>Mi ruta de aprendizaje en LaunchX</title>
       <link>https://andreacuriel.github.io/my_launchx_blog/posts/post_1/</link>
